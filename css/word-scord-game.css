@@ -1,0 +1,134 @@
+#letters-you-have-box{
+	/* column-count: 8; */
+}
+
+.letter{
+	margin-top: -28px;
+    margin-left: -10px;
+    font-size: 5.2em;
+}
+.point{
+    margin-top: -115px;
+    margin-left: 50px;
+    
+    font-size: 1.8em;
+}
+
+.tile-piece {
+    border-radius: 15px;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+.tile-piece-1 {
+    background: url(../img/red-oak.jpg);
+    background-position: left top;
+}
+
+.tile-piece-2 {
+    background: url(../img/red-oak.jpg);
+    background-position: right top;
+}
+.tile-piece-3 {
+    background: url(../img/red-oak.jpg);
+    background-position: left bottom;
+}
+.tile-piece-4 {
+    background: url(../img/red-oak.jpg);
+    background-position: right bottom;
+}
+
+.letter-I{
+	margin-left: 10px;
+}
+.letter-J{
+	margin-left: 8px;
+}
+.letter-P{
+	margin-left: 3px;
+}
+.letter-M{
+	margin-left: -15px;
+}
+.letter-N{
+	margin-left: -7px;
+}
+.letter-W{
+	margin-left: -14px;
+}
+.letter-S{
+	margin-left: -2px;
+}
+.letter-F{
+	margin-left: -2px;
+}
+.letter-_ {
+	margin-left: -5px;
+}
+.letter-E {
+	margin-left: -6px;
+}
+.letter-T{
+	margin-left: -4px;
+}
+.letter-R{
+	margin-left: -6px;
+}.letter-Q{
+	margin-left: -12px;
+}
+.letter-L{
+	margin-left: -4px;
+}
+.points-10{
+	margin-left: 40px;
+}
+.label, .badge{display: inline-block;padding:2px 4px;font-size: 15px;font-weight: bold;line-height:14px;color: #fff;white-space: nowrap;vertical-align: baseline;background-color: #999; position: absolute;}
+/*圆角*/
+.label.radius{border-radius: 10px}
+.badge{padding-right:9px;padding-left:9px;border-radius:9px}
+.label:empty, .badge:empty{display: none}
+a.label:hover, a.label:focus, a.badge:hover, a.badge:focus{color: #fff;text-decoration: none;cursor: pointer}
+
+ 
+/*危险*/
+.label-danger, .badge-danger{background-color: #dd514c}
+.label-danger[href], .badge-danger[href]{background-color: #dd514c}
+
+
+/*按钮*/
+.btn{display:inline-block;cursor:pointer;text-align:center; font-weight:400;white-space:nowrap;vertical-align: middle;*zoom:1;-webkit-transition:background-color .1s linear;-moz-transition:background-color .1s linear;-o-transition:background-color .1s linear;transition:background-color .1s linear}
+a.btn:hover,a.btn:focus,a.btn:active,a.btn.active,a.btn.disabled,a.btn[disabled]{text-decoration:none}
+.btn:active,.btn.active{background-color:#ccc}
+.btn:first-child{*margin-left:0}
+.btn.active,.btn:active{-moz-box-shadow:0 1px 8px rgba(0, 0, 0, 0.125) inset;-webkit-box-shadow:0 1px 8px rgba(0, 0, 0, 0.125) inset; box-shadow:0 1px 8px rgba(0, 0, 0, 0.125) inset}
+.radius{border-radius: 6px}
+
+/*次要按钮*/
+.btn-secondary{color:#fff;background-color:#3bb4f2; border-color:#3bb4f2}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active{color:#fff;background-color:#0f9ae0;border-color:#0f9ae0}
+/*默认状态*/
+.input-text,.textarea{box-sizing:border-box;border:solid 1px #ddd;width:13%;
+    -webkit-transition:all 0.2s linear 0s;
+       -moz-transition:all 0.2s linear 0s;
+         -o-transition:all 0.2s linear 0s;
+            transition:all 0.2s linear 0s}
+.textarea{ height:auto; font-size:14px; padding:4px}
+.input-text:hover,.textarea:hover{border: solid 1px #3bb4f2}
+/*得到焦点后*/
+.input-text.focus,textarea.focus{border:solid 1px #0f9ae0 \9;border-color:rgba(82,168,236,0.8);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6)}
+/*不可点击*/
+.input-text.disabled,.textarea.disabled,.input-text.disabled.focus,.textarea.disabled.focus{background-color:#ededed; cursor:default;border-color: #ddd;
+	-webkit-box-shadow:inset 0 2px 2px #e8e7e7;
+       -moz-box-shadow:inset 0 2px 2px #e8e7e7;
+            box-shadow:inset 0 2px 2px #e8e7e7}
+/*只读状态*/
+.input-text.disabled,.textarea.disabled{background-color:#e6e6e6; cursor:default}
+/*阴影*/
+.input-text.box-shadow,.textarea.box-shadow{-ms-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
